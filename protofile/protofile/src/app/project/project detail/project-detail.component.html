@@ -1,0 +1,20 @@
+<div class="project mt-2 mx-2">
+  <div class="project__intro">
+    <div class="project__title">
+      {{project.name}}</div>
+    <div class="logo__img my-3">
+      <ng-container *ngFor="let logo of project.logo">
+        <img src="{{logo}}" alt="">
+      </ng-container>
+    </div>
+  </div>
+  <div class="project__detail m-2">
+    <div class="project__detail__intro">
+      <strong>{{project.type}}: </strong>
+      {{project.content}}
+    </div>
+    <div class="project__detail__tech my-2">
+      <strong><a target="_blank" href="{{project.source}}"><i class="fab fa-github"></i> View Source</a></strong>
+    </div>
+  </div>
+</div>

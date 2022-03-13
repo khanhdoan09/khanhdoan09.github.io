@@ -1,0 +1,39 @@
+  <button class="bt-collapse-nav bt-fixed" (click)="openNav()">
+      <i class="fas fa-ellipsis-h"></i>
+  </button>
+  <a href="#home">
+      <button class="bt-scroll-top bt-fixed">
+          <i class="fa-solid fa-up-long"></i>
+      </button>
+  </a>
+  <nav class="container-nav position-fixed" [class.hidden]="isHidden">
+      <div class="d-flex justify-content-between py-5" id="navbarNav">
+          <ul class="nav__ul d-flex flex-column w-100 align-items-center">
+              <li
+                  class="p-4 nav-item logo bg-danger d-flex justify-content-center align-items-center p-2 rounded-circle">
+                  <a href="" class="text-white nav-link" href="#home">KD</a>
+              </li>
+              <li class="nav-item pt-5">
+                  <a href="#home" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="" class="nav-link">My CV</a>
+              </li>
+              <!-- <li class="nav-item">
+                  <a href="#skill" class="nav-link">Skill</a>
+              </li> -->
+              <li class="nav-item" >
+                  <a href="#project" class="nav-link" id="link-project">Project</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link" style="color: var(--blue);"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link" style="color: var(--red-color)"><i class="fab fa-google"></i></a>
+              </li>
+              <li class="nav-item">
+                  <a href="https://github.com/khanhdoan09" target="blank" class="nav-link"><i class="fab fa-github"></i></a>
+              </li>
+          </ul>
+      </div>
+  </nav>

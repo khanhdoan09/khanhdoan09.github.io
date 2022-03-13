@@ -1,0 +1,39 @@
+
+@media only screen and (max-width: 920px) {
+  .background {
+      min-height: 100vh;
+      background-image: none;
+      background-color: var(--background-grey);
+  }
+  .container__intro{
+      width: 100% !important;
+  }
+  .container-nav {
+    transition-timing-function: ease-in;
+    transition: width 2s;
+      width: 0%;
+      background-color: white;
+      left: -10%;
+      height: 100%;
+      padding-top: 30%;
+  }
+  .bt-collapse-nav {
+      display: block;
+    }
+  }
+  @media only screen and (min-width: 920px) {
+     .bt-collapse-nav {
+         display: none;
+     }
+     .container-nav {
+          display: block;
+          width: 8% !important;
+          left: 0 !important;
+      }
+  }
+
+  @media only screen and (max-width: 810px) {
+      .about__info {
+          flex-wrap: wrap;
+      }
+  }

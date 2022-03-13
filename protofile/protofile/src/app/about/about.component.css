@@ -1,0 +1,42 @@
+.about__title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.about__title--sub {
+  font-size: 20px;
+}
+
+.about__img {
+  border-radius: 10px;
+  border: none;
+}
+
+.info {
+  font-size: 18px;
+}
+
+.info__detail {
+  /* margin-left: 40px; */
+  width: 950px;
+}
+.info__img {
+ width: 600px;
+ max-height: 600px;
+}
+
+.info__img img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.detail__title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.detail__title--sub {
+  font-size: 20px;
+
+}

@@ -1,0 +1,15 @@
+<div class="container__project mx-5 text-center">
+  <div class="container__skill d-flex flex-wrap">
+    <ng-container *ngFor="let curTag of tag | keyvalue:originalOrder">
+      <div class="skill" (click)="onClickTag(curTag.value)">{{curTag.value}}</div>
+    </ng-container>
+  </div>
+  <div class="d-flex flex-wrap justify-content-center w-100 mt-5">
+    <div class="d-flex flex-wrap justify-content-beetween w-100">
+      <ng-container *ngFor="let project of currentProjects">
+        <app-project-detail [project]="project"></app-project-detail>
+      </ng-container>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,27 @@
+.background {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position:center ;
+  background-size:cover;
+  background-image: url('/assets/image/bg.jpg');
+}
+
+.intro__bt--red  {
+  width: 180px;
+  height: 40px;
+}
+.intro--bold {
+ font-size: 30px;
+ font-weight: bold;
+}
+.intro--light {
+ font-size: 16px;
+ font-weight: lighter;
+ letter-spacing: 2px;
+ width: 80%;
+}
+
+.intro--spacing{
+ letter-spacing: 2px;
+}
+

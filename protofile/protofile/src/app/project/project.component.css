@@ -1,0 +1,51 @@
+.skill {
+  background-color: #3F5B8B;
+  color: #E9E7EB;
+  box-shadow: 1px 1px 0 rgb(0 0 0 / 25%);
+  font-weight: bold;
+  font-family: MontSerrat,Tahoma,Arial,sans-serif;
+  font-size: .75em;
+  line-height: 1em;
+  cursor: pointer;
+  padding: 8px 5px;
+  margin: 0 10px;
+  border-radius: 10%;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 100;
+}
+
+.skill::after {
+  content: '';
+  position: absolute;
+  background-color: #13334C;
+  width: 0%;
+  height: 50%;
+  top: 0;
+  right: 0;
+  transition: width .3s;
+  transition-delay: 150ms;
+  opacity: 0.3;
+}
+
+.skill::before {
+  content: '';
+  position: absolute;
+  background-color: #13334C;
+  height: 50%;
+  width: 0%;
+  left: 0;
+  bottom: 0;
+  transition: width .3s;
+  transition-delay: 150ms;
+  opacity: 0.3;
+}
+
+.skill:hover::before{
+  width: 100%;
+}
+.skill:hover::after{
+  width: 100%;
+}
+
+

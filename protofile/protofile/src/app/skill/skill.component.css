@@ -1,0 +1,101 @@
+.container__skill-tech {
+  justify-content: space-between;
+}
+.container__skill {
+  max-width: 600px;
+  width: 100%;
+}
+.skill {
+  justify-content: space-evenly;
+}
+
+.skill__title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.skill__bar {
+  max-width: 600px;
+  width: 100%;
+  height: 20px;
+  background-color: var(--bold-grey);
+  border-radius: 10px;
+  padding: 0;
+}
+
+.skill__bar--bold {
+  border-radius: 20px;
+  width: 40px;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1000;
+  overflow: visible !important;
+
+}
+
+.skill-logo {
+  border-radius: 100%;
+  font-size: 18px;
+  z-index: 2000;
+  height: 40px !important;
+  width:40px !important;
+  overflow-y:visible !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--pure-white-color);
+}
+
+
+#bar-html {
+  background-color: var(--blue);
+}
+
+#bar-css {
+  background-color: var(--orange);
+}
+
+#bar-js {
+  background-color: var(--yellow);
+}
+
+#bar-java {
+  background-color: var(--light-orange);
+}
+
+#bar-cSharp {
+  background-color: var(--light-blue);
+}
+.skill__name {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+/*---tech---*/
+.container-tech {
+  max-width: 500px;
+  height: 100% !important;
+}
+
+.tech__ul {
+  display: grid;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+.tech__container {
+  padding: 10px;
+  margin: 10px 5px;
+  width: fit-content;
+  display: inline-block;
+  background-color: rgb(112, 112, 119);
+  color: white;
+  border-radius: 8%;
+  cursor: context-menu;
+}
+
+.tech__container:hover {
+  transform: scale(1.2);
+}
