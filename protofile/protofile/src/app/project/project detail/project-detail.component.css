@@ -28,9 +28,9 @@
   padding: 2px 10px;
 }
 
-.project__detail__tech:hover {
+/* .project__detail__tech:hover {
   background-color: var(--white-git);
-}
+} */
 
 .logo__img {
   display: flex;
