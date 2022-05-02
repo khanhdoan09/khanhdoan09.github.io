@@ -6,9 +6,15 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { BackgroundComponent } from './background/background.component';
 import { AboutComponent } from './about/about.component';
 import { SkillComponent } from './skill/skill.component';
-import { ProgressComponent } from './skill/progess.component';
 import { ProjectComponent } from './project/project.component'
-import {ProjectDetailComponent} from './project/project detail/project-detail.component'
+import {ProjectDetailComponent} from './project/project detail/project-detail.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import {MatButtonModule} from '@angular/material/button';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -17,12 +23,19 @@ import {ProjectDetailComponent} from './project/project detail/project-detail.co
     BackgroundComponent,
     AboutComponent,
     SkillComponent,
-    ProgressComponent,
     ProjectComponent,
-    ProjectDetailComponent
+    ProjectDetailComponent,
     ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ReactiveFormsModule,
+    FormsModule,
+    MatCheckboxModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatButtonModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

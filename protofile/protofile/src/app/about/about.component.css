@@ -18,7 +18,7 @@
 
 .info__detail {
   /* margin-left: 40px; */
-  width: 950px;
+  /* width: 950px; */
 }
 .info__img {
  width: 600px;
@@ -39,4 +39,8 @@
 .detail__title--sub {
   font-size: 20px;
 
+}
+
+.fa-check {
+  margin-right: 2px;
 }
