@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "protofile": {
+    "deploy-github-angular": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "protofile:build:production"
+              "browserTarget": "deploy-github-angular:build:production"
             },
             "development": {
-              "browserTarget": "protofile:build:development"
+              "browserTarget": "deploy-github-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "protofile:build"
+            "browserTarget": "deploy-github-angular:build"
           }
         },
         "test": {
@@ -98,12 +98,9 @@
             ],
             "scripts": []
           }
-        },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
   },
-  "defaultProject": "protofile"
+  "defaultProject": "deploy-github-angular"
 }
