@@ -36,7 +36,7 @@ export let projects:Project[]= [
   {id: '3', tag:[tag.all, tag.java, tag.mysql], name:'shoe e-commerce', logo:[logo.java, logo.jsp, logo.jdbc,logo.jquery, logo.mySql], type:type.group, content:'I write backend for amin page, filter search, pagination which applied jsp and servlet', source:'https://github.com/khanhdoan09/ltw'},
   {id: '4', tag:[tag.all, tag.java], name:'tetris', logo:[logo.java], type:type.group, content:'I used design pattern(strategy pattern, observer pattern, singleton pattern) to translate language for this project', source:'https://github.com/khanhdoan09/TKHDT'},
   // {id:'5', tag:[tag.all, tag.html, tag.css, tag.js, tag.mysql, tag.angular, tag.nodejs], name:'To do list', logo:[logo.angular, logo.html, logo.css, logo.js, logo.bootstrap, logo.nodejs, logo.mySql], type:type.personal, content:'To do list', source:'https://github.com/khanhdoan09/Lesson-Read'},
-  {id:'5', tag:[tag.all, tag.html, tag.css, tag.js], name:'pokemon game', logo:[logo.html, logo.css, logo.js], type:type.personal, content:'Make a game pokemon connection with vanila js', source:'#'},
+  {id:'5', tag:[tag.all, tag.html, tag.css, tag.js], name:'pokemon game', logo:[logo.html, logo.css, logo.js], type:type.personal, content:'Make a game pokemon connection with vanila js and scss', source:'#'},
   {id:'6', tag:[tag.all, tag.flutter], name:'weather app', logo:[logo.flutter], type:type.personal, content:'Make a simple weather app can call api from openweathermap.org', source:'https://github.com/khanhdoan09/weather-app'},
 
 ]
